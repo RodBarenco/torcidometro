@@ -19,5 +19,9 @@
   "dependencies": {
     "@vercel/node": "^2.6.2",
     "express": "^4.18.2"
-  }
+  },
+  "files": [
+    "index.js",
+    "src/**/*"
+  ]
 }
