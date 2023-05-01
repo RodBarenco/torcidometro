@@ -6,8 +6,5 @@
   "scripts": {
     "start": "node app.js",
     "build": "echo \"Não há necessidade de construir o projeto.\""
-  },
-  "dependencies": {
-    "http": "^0.0.1"
   }
 }
