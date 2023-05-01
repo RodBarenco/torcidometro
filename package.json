@@ -4,7 +4,6 @@
   "description": "Página simples com informações sobre o percentual de torcidas em vários países",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "build": "echo \"Não há necessidade de construir o projeto.\""
+    "start": "node app.js"
   }
 }
