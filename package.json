@@ -1,0 +1,10 @@
+{
+    "name": "o-torcidometro",
+    "version": "1.0.0",
+    "description": "Página simles com informação sobre o percentual de torcidas em vários países",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    }
+  }
+  
