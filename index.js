@@ -1,9 +1,11 @@
 import express from 'express';
+import { Router } from 'express';
 import fs from 'fs';
 
 const app = express();
+const route = Router();
 
-app.get('/', (req, res) => {
+route.get('/', (req, res) => {
   fs.readFile('./src/template.html', (err, data) => {
     if (err) {
       res.status(500).send('Erro interno do servidor');
@@ -13,7 +15,7 @@ app.get('/', (req, res) => {
   });
 });
 
-app.get('/list.json', (req, res) => {
+route.get('/list.json', (req, res) => {
   fs.readFile('./src/data/list.json', (err, data) => {
     if (err) {
       res.status(500).send('Erro interno do servidor');
@@ -23,7 +25,7 @@ app.get('/list.json', (req, res) => {
   });
 });
 
-app.get('/main.js', (req, res) => {
+route.get('/main.js', (req, res) => {
   fs.readFile('./src/main.js', (err, data) => {
     if (err) {
       res.status(500).send('Erro interno do servidor');
@@ -33,7 +35,7 @@ app.get('/main.js', (req, res) => {
   });
 });
 
-app.get('/stylesheet.css', (req, res) => {
+route.get('/stylesheet.css', (req, res) => {
   fs.readFile('./src/stylesheet.css', (err, data) => {
     if (err) {
       res.status(500).send('Erro interno do servidor');
@@ -43,7 +45,7 @@ app.get('/stylesheet.css', (req, res) => {
   });
 });
 
-app.get('/assets/:filename', (req, res) => {
+route.get('/assets/:filename', (req, res) => {
   const filename = req.params.filename;
   fs.readFile(`./src/assets/${decodeURI(filename)}`, (err, data) => {
     if (err) {
@@ -55,11 +57,10 @@ app.get('/assets/:filename', (req, res) => {
   });
 });
 
+app.use(route);
 
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
   console.log(`Servidor iniciado na porta ${PORT}`);
 });
-
-

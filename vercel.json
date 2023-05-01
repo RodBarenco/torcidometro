@@ -1,15 +1,13 @@
 {
-    "name": "deploy-node-in-vercel",
     "version": 2,
     "public": true,
     "build": {
-      "env": {
-        "NODE_ENV": "production"
-      }
+        "src": "index.js",
+        "use": "@vercel/node"
     },
     "routes": [
       {
-        "src": "/.*",
+        "src": "/(.*)",
         "dest": "index.js"
       }
     ]
