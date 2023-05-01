@@ -2,14 +2,24 @@
   "name": "o-torcidometro",
   "version": "1.0.0",
   "description": "Página simles com informação sobre o percentual de torcidas em vários países",
-  "main": "app.js",
-  
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
-      "vercel-build": "node ./build.js"
-    },
-  
+    "build": "npm run build:css && npm run build:js",
+    "build:css": "postcss src/stylesheet.css -o public/stylesheet.css",
+    "build:js": "webpack --mode=production",
+    "start": "node app.js"
+  },
   "dependencies": {
-    "http": "^0.0.1",
-    "fs": "0.0.1-security"
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "postcss": "^8.3.6",
+    "postcss-cli": "^9.1.0",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
   }
 }
+
