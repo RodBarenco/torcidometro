@@ -12,7 +12,7 @@
     "Talleres - 1,10%",
     "Belgrano - 1,10%",
     "Outros - 3,40%",
-    "Fonte: https://bolavip.com/ar/futbolargentino/Los-10-clubes-de-Argentina-con-mas-hinchas-en-el-pais-segun-un-nuevo-estudio-20220530-0021.html"
+    "https://bolavip.com/ar/futbolargentino/Los-10-clubes-de-Argentina-con-mas-hinchas-en-el-pais-segun-un-nuevo-estudio-20220530-0021.html"
     ],
   "México": [
     "Club América - 23,9%",
@@ -30,7 +30,7 @@
     "Querétaro - 0,6%",
     "Toluca - 0,6%",
     "Veracruz - 0,2%",
-    "Fonte: https://www.mitofsky.mx/post/aficion-futbol-2022"
+    "https://www.mitofsky.mx/post/aficion-futbol-2022"
     ],
   "Alemanha": [
     "Bayern Munich - 22,8%",
@@ -43,7 +43,7 @@
     "Hamburger SV - 5%",
     "VfB Stuttgart - 6,7%",
     "Eintracht Frankfurt - 6,2%",
-    "Fonte: https://www.statista.com/statistics/595662/german-bundesliga-leading-clubs-based-on-popularity/"
+    "https://www.statista.com/statistics/595662/german-bundesliga-leading-clubs-based-on-popularity/"
   ],
   "Itália": [
     "Juventus - 29%",
@@ -54,7 +54,7 @@
     "Fiorentina - 2,1%",
     "Cagliari - 2,1%",
     "Bologna - 1,7%",
-    "Fonte: https://trivela.com.br/sem-categoria/as-maiores-torcidas-da-italia/ - obs: pesquisa antiga e questionável!"
+    "https://trivela.com.br/sem-categoria/as-maiores-torcidas-da-italia/ - obs: pesquisa antiga e questionável!"
     ],
     "Espanha": [
       "Real Madrid - 46%",
@@ -70,7 +70,7 @@
       "Málaga - 4%",
       "RC Deportivo - 3%",
       "Real Sociedad - 3%",
-      "Fonte: https://onefootball.com/es/noticias/los-clubes-mas-queridos-y-odiados-de-espana-22873775"
+      "https://onefootball.com/es/noticias/los-clubes-mas-queridos-y-odiados-de-espana-22873775"
       ],
       "Inglaterra": [
         "Manchester United - 19%",
@@ -83,7 +83,7 @@
         "Newcastle United - 5%",
         "West Ham United - 4%",
         "Leicester City - 4%",
-        "Fonte: https://yougov.co.uk/topics/sport/articles-reports/2021/09/24/manchester-united-best-supported-PL-club"
+        "https://yougov.co.uk/topics/sport/articles-reports/2021/09/24/manchester-united-best-supported-PL-club"
         ],
         "Brasil": [
           "Flamengo - 21,9%",
@@ -99,6 +99,6 @@
           "Fluminense - 3,4%",
           "Santos - 3,1%",
           "Botafogo - 2%",
-          "Fonte: https://ge.globo.com/futebol/noticia/2023/04/25/maiores-torcidas-do-brasil-pesquisa-atlas-mostra-flamengo-corinthians-e-sao-paulo-no-top-3.ghtml"
+          "https://ge.globo.com/futebol/noticia/2023/04/25/maiores-torcidas-do-brasil-pesquisa-atlas-mostra-flamengo-corinthians-e-sao-paulo-no-top-3.ghtml"
           ]
 }
