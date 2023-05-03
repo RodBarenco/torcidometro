@@ -6,7 +6,7 @@ const router = Router();
 router.get('/', (req, res) => {
   fs.readFile('./src/template.html', (err, data) => {
     if (err) {
-      res.status(500).send(`Erro interno do servidor + diretório e processo: \n ${console.log(__dirname, process)}`);
+      res.status(500).send(`Erro interno do servidor + diretório e processo: \n ${console.log(__dirname)}`);
     } else {
       res.status(200).type('html').send(data);
     }
