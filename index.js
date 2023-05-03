@@ -12,6 +12,7 @@ app.use("/list.json", router);
 app.use("/main.js", router);
 app.use("/stylesheet.css", router);
 app.use("/assets/:filename", router);
+
 // connection
 const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`Listening to port ${port}`));
