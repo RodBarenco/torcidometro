@@ -8,10 +8,6 @@ app.use(express.json());
 
 // Routes
 app.use("/", router);
-app.use("/list.json", router);
-app.use("/main.js", router);
-app.use("/stylesheet.css", router);
-app.use("/assets/:filename", router);
 
 // connection
 const port = process.env.PORT || 3000;
